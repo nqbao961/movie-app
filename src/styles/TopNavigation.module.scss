@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  width: 100%;
+  padding: 16px 36px;
+  z-index: 9;
+  transition: background-color 0.5s ease;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  .favicon {
+    img {
+      display: flex;
+      height: 88px;
+    }
+  }
+  .navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+}
